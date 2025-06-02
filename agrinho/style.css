@@ -1,79 +1,80 @@
-/* Reset básico */
-* {
+body {
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-}
-
-/* Corpo e Fundo */
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #f5f5f5;
+    background-color: #f9f9f9;
     color: #333;
-}
-
-/* Container */
-.container {
-    width: 80%;
-    margin: 0 auto;
-}
-
-/* Cabeçalho */
-header {
-    background-color: #4CAF50; /* Verde do campo */
-    color: #fff;
-    padding: 40px 0;
+    }
+    
+    header {
+    background: url('https://images.unsplash.com/photo-1602524810091-3e4c2dbb9c44') no-repeat center center/cover;
+    color: rgb(0, 0, 0);
     text-align: center;
-}
-
-header h1 {
-    font-size: 2.5em;
-    margin-bottom: 10px;
-}
-
-header p {
+    padding: 80px 20px;
+    }
+    
+    header h1 {
+    font-size: 3em;
+    margin: 0;
+    }
+    
+    header p {
     font-size: 1.2em;
-}
-
-/* Seção Principal */
-.main-content {
-    padding: 40px 0;
-}
-
-.main-content h2 {
+    margin-top: 10px;
+    }
+    
+    nav {
+    background-color: #4CAF50;
     text-align: center;
+    }
+    
+    nav a {
+    display: inline-block;
+    padding: 15px 20px;
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+    }
+    
+    nav a:hover {
+    background-color: #45a049;
+    }
+    
+    section {
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: auto;
+    }
+    
+    section img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-top: 20px;
+    }
+    
+    .section-title {
     font-size: 2em;
     margin-bottom: 20px;
-}
-
-.main-content p {
-    font-size: 1.1em;
-    text-align: justify;
-    margin-bottom: 20px;
-}
-
-/* Seção de Imagens */
-.image-section {
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 30px;
-}
-
-.image-section img {
-    max-width: 48%;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-/* Rodapé */
-footer {
+    color: #4CAF50;
+    }
+    
+    footer {
     background-color: #333;
-    color: #fff;
-    padding: 20px 0;
+    color: rgb(255, 255, 255);
     text-align: center;
-}
-
-footer p {
-    font-size: 1em;
-}
+    padding: 20px;
+    }
+    
+    .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    margin-top: 30px;
+    }
+    
+    .gallery img {
+    width: 100%;
+    border-radius: 8px;
+    }
+    
+    
