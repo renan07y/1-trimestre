@@ -13,6 +13,36 @@ body {
     padding: 80px 20px;
     }
     
+    /* Remove margens e define altura total */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: sans-serif;
+    overflow: hidden;
+    }
+    
+    /* Estilo do vídeo de fundo */
+    .video-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    }
+    
+    /* Estilo do conteúdo */
+    .conteudo {
+    position: relative;
+    z-index: 1;
+    color: white;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+    }
+
     header h1 {
     font-size: 3em;
     margin: 0;
@@ -31,7 +61,7 @@ body {
     nav a {
     display: inline-block;
     padding: 15px 20px;
-    color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
     text-decoration: none;
     font-weight: bold;
     }
