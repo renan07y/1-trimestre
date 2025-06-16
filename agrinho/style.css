@@ -13,26 +13,6 @@ body {
     padding: 80px 20px;
     }
     
-    /* Remove margens e define altura total */
-body, html {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    font-family: sans-serif;
-    overflow: hidden;
-    }
-    
-    /* Estilo do vídeo de fundo */
-    .video-bg {
-    position: fixed;
-    top: 0;
-    left: 0;
-    min-width: 100%;
-    min-height: 100%;
-    object-fit: cover;
-    z-index: -1;
-    }
-    
     /* Estilo do conteúdo */
     .conteudo {
     position: relative;
